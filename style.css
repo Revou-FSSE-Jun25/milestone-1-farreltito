@@ -30,6 +30,7 @@ body {
 
 .gradient-text {
     background: linear-gradient(to right, #ff9800, #ffeb3b); /* Orange to Yellow */
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
