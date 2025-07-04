@@ -27,3 +27,9 @@ body {
     text-decoration: underline; /* Underline on hover */
     font-weight: bold; /* Bold on hover */
 }
+
+.gradient-text {
+    background: linear-gradient(to right, #ff9800, #ffeb3b); /* Orange to Yellow */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
