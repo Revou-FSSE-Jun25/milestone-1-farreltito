@@ -34,3 +34,22 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.project-card {
+     background-color: rgba(83, 54, 42, 0.5);
+     transition: all 0.3s ease;
+     border: 1px solid transparent;
+}
+
+.project-card:hover {
+    background-color: rgba(83, 54, 42, 0.8);
+    border-color: rgba(255, 152, 0, 0.4);
+}
+
+.tech-item {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
