@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <!-- Meta tags for character set and viewport -->
     <meta charset="UTF-8">
@@ -16,11 +16,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Link to the external files -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="antialiased">
     <div class="noise"></div>
-    
+
     <!-- Main Container -->
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -32,7 +32,7 @@
             <nav class="hidden md:flex items-center space-x-8">
                 <a href="#about-me.html" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">About</a>
                 <a href="#projects.html" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Projects</a>
-                <a href="#mail-to:titofarrel2@gmail.com" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Contact via Email</a>
+                <a href="#mail-to:titofarrel2@gmail.com" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Contact</a>
             </nav>
         </header>
 
@@ -79,6 +79,24 @@
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section id="about" class="py-20 md:py-32 border-t border-yoimiya">
+                <h2 class="text-2xl font-bold mb-8 text-center md:text-left">About Me</h2>
+                <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+                    <div class="flex-shrink-0">
+                        <img src="images/farreltito.jpeg" alt="Farrel Tito profile picture" class="rounded-full w-32 h-32 md:w-60 md:h-60 object-cover border-4 border-yoimiya">
+                    </div>
+                    <div class="space-y-4 text-center md:text-left">
+                      <p>
+                        My journey into tech started with a childhood curiosity for how computers work and led me to a degree in Informatics Engineering. I thrive on the challenge of solving complex problems and am passionate about building smooth, user-friendly applications with the skills I developed in languages like C++, Kotlin, and Flutter.
+                      </p>
+                      <a href="#about-me.html" class="inline-block mt-4 text-sm font-medium link-yoimiya">
+                        Learn more about my journey →
+                      </a>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <!-- Footer Section -->
@@ -100,31 +118,7 @@
          </footer>
     </div>
 
-    <script>
-        // Function to update the time every second
-        function updateTime() {
-            const getTimeNow = new Date();
-            const timeOptions = { 
-                hour: '2-digit', 
-                minute: '2-digit',
-                second: '2-digit',
-                timeZone: 'Asia/Jakarta'
-            };
-            document.getElementById('time').textContent = getTimeNow.toLocaleTimeString('en-US', timeOptions);
-        }
-
-        // Function to update year in the footer
-        function updateYear() {
-            const getYearNow = new Date().getFullYear();
-            document.getElementById('year').textContent = getYearNow;
-        }
-
-        // Initial call to set the time immediately
-        updateTime();
-        updateYear();
-
-        // Update the time every second
-        setInterval(updateTime, 1000);
-    </script>
+    <!-- Link to external JavaScript file -->
+    <script src="js/timeUpdate.js"></script>
 </body>
 </html>
