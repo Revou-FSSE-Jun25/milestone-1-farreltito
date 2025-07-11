@@ -5,6 +5,8 @@
  * This theme features vibrant colors and a playful design.
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 body {
     font-family: 'Inter', sans-serif; /* Font: Inter from Google Fonts */
     background-color: #2a2a3e;      /* Dark Slate Blue */
@@ -18,14 +20,14 @@ body {
 
 .link-yoimiya {
     color: #ffb74d;
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none;                                                         /* Remove underline from links */
     transition: color 0.3s ease, text-decoration 0.3s ease, font-weight 0.3s ease; /* Smooth transition for hover effects */ 
 }
 
 .link-yoimiya:hover {
     color: #ffcc80;
     text-decoration: underline; /* Underline on hover */
-    font-weight: bold; /* Bold on hover */
+    font-weight: bold;          /* Bold on hover */
 }
 
 .gradient-text {
