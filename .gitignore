@@ -1,0 +1,18 @@
+# Dependency directories
+
+# Build output
+
+# Log files
+
+# Environment variables
+
+# IDE and editor directories
+.vscode
+
+# Operating System files
+.DS_Store
+
+# Optional local config files
+
+# JavaScript files
+js/sideBarMobile.js
