@@ -55,6 +55,13 @@ Extension in VS Code:
 - **Clone or Download:** Clone this repository or download the ZIP file containing `index.html`, `about-me.html`, `menuToggle.js`, `timeUpdate.js`, and `style.css`.
 - **Local Development:** For the best development experience, open the project folder in a code editor like **Visual Studio Code** and use a **Live Server** extension to automatically reload the page on changes, and also Extension **Markdown Preview Enchanced** for markdown preview.
 
+## How to Deploy
+Case: Netlify
+1. Create Account (use **GitHub** recommended)
+2. Configure your projects (Change projects name recommended)
+3. In section Deploy, choose the portfolio folder projects that containing all files that we need
+4. Check on your site
+
 ## Screenshots
 ### Below are screenshots of the pages.
 **Homepage:**
