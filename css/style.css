@@ -5,6 +5,7 @@
  * This theme features vibrant colors and a playful design.
 */
 
+/* Import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 .noise {
@@ -24,6 +25,12 @@ body {
     background-color: #2a2a3e;      /* Dark Slate Blue */
     color: #f0e6d2;                 /* Parchment/Light Cream */
     overflow-x: hidden;               /* Overflow-x property to hide horizontal scroll */
+}
+
+button[type="submit"]:hover {
+    background-color: #ffcc80;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
 }
 
 .border-yoimiya {
