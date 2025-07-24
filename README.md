@@ -29,7 +29,7 @@ The design is inspired by a custom "**Yoimiya from Genshin Impact**" color theme
     - **Noise Background Pattern:** A lightweight, noise-like background pattern generated with an inline SVG to add texture without impacting performance.
     - **Gradient Text:** Key headings use a CSS linear gradient for a striking visual effect.
     - **Interactive Hover Effects:** Links and project cards have smooth transitions and hover effects to improve user experience.
-    - **(PLANNED) Animated Status Dot:** A pulsing dot indicates availability, created with CSS keyframe animations.
+    - **Animated Status Dot:** A pulsing dot indicates availability, created with CSS keyframe animations.
 - **Responsive Design:** 
     - The layout is fully responsive and adapts seamlessly to various screen sizes, from mobile devices to desktop monitors, using Tailwind CSS utility classes.
 - **Accessibility & SEO:**
