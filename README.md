@@ -1,8 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/akoVEwkh)
 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4f5581d9-491f-4484-aa11-d07a85820026/deploy-status)](https://app.netlify.com/projects/farreltito/deploys)
-
 [Link to my portfolio page click here...](https://farreltito.netlify.app/)
 
 # Personal Portfolio Website for Farrel Tito
