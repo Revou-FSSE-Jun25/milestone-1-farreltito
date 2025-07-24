@@ -87,6 +87,10 @@ button[type="submit"]:hover {
     font-weight: 500;
 }
 
+.text-yoimiya {
+  color: #ffb74d;
+}
+
 .disabled {
   pointer-events: none;
   opacity: 0.8;
