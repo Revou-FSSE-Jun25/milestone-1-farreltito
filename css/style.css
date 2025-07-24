@@ -37,6 +37,18 @@ button[type="submit"]:hover {
     border-color: rgba(255, 152, 0, 0.2);
 }
 
+.contact-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border-radius: 1rem;
+    padding: 2rem 1.25rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 .link-yoimiya {
     color: #ffb74d;
     text-decoration: none;                                                         /* Remove underline from links */
