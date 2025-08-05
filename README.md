@@ -64,7 +64,7 @@ Case: Netlify
 ## Screenshots
 ### Below are screenshots of the pages.
 **Homepage:**
-![Homepage Preview](images/screenshot-homepage.png)
+![Homepage Preview](images/screenshot-homepage.webp)
 
 **About Me Page:**
-![About Me Preview](images/screenshot-aboutme.png)
+![About Me Preview](images/screenshot-aboutme.webp)

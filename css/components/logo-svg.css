@@ -1,0 +1,24 @@
+/* Import Logo */
+.logogithub {
+  width: 20px;
+  height: 20px;
+  background-image: url('../../components/icons/assets/Icon-Logo-Github-Outlined.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logolinkedin {
+  width: 20px;
+  height: 20px;
+  background-image: url('../../components/icons/assets/Icon-Logo-Linkedin-Outlined.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logoyoutube {
+  width: 20px;
+  height: 20px;
+  background-image: url('../../components/icons/assets/Icon-Logo-Youtube-Outlined.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
